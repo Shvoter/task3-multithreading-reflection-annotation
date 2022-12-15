@@ -21,7 +21,7 @@ import static java.util.stream.Collectors.*;
 /*
      Check README.md to understand the time results of using different numbers of threads
  */
-public class parallelStatistics {
+public class ParallelStatistics {
      private static class Fines<K, V> extends LinkedHashMap<K, V> { }
 
      /**
